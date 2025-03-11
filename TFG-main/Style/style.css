@@ -1,0 +1,17 @@
+/* Pruebas */
+
+* {
+    display: ;
+    .bodysection {
+        display: grid;
+        background-color: lightcoral;
+        .divtitulo {
+            display: flex;
+            background-color: lightseagreen;
+        }
+
+    }
+
+}
+
+
