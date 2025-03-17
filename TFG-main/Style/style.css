@@ -1,17 +1,59 @@
 /* Pruebas */
 
-* {
-    display: ;
-    .bodysection {
-        display: grid;
-        background-color: lightcoral;
-        .divtitulo {
-            display: flex;
-            background-color: lightseagreen;
+    body {
+        display: block;
+        background-color: white;
+
+        h2 { 
+            color: rgba(0, 60, 151, 0.836);
         }
 
+        h3 {
+            color: lightslategray
+        }
+
+        .euroheader {
+            display: flex;
+            /* justify-content: space-between; */
+            .eurologo {
+                height: 100px;
+                width: 300px;
+                padding: 1.5rem;
+            }
+
+            .eurosearch {
+                align-items: center;
+            }
+        }
+        
+        .sectionslinks {
+            display: grid;
+            
+            li {
+                display: inline;
+                color: rgb(28, 116, 231);
+            }
+        }
+
+        .euroarticulos {
+            display: grid;
+            background-color: rgb(28, 116, 231);
+            color: white;
+            li {
+                justify-content: space-between;
+                display: inline-block;
+            }
+        }
+
+        .cuerpo {
+            display: flex;
+            align-items: stretch;
+        }
     }
 
-}
+      
+
+  
+    
 
 
