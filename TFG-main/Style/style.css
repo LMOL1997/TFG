@@ -9,12 +9,80 @@
         }
 
         h3 {
-            color: lightslategray
+            color: lightslategray;
+            font-size: medium;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        /* .images_juego {
+            height: 10em;
+            width: 15em;
+            background-color: yellow;
+            padding: 1em;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        } */
+
+        .button1 {
+            background-color: rgb(255, 75, 75);
+        }
+
+        .button2 {
+            background-color: rgb(12, 12, 117);
+        }
+
+        .button1, .button2 {
+            color: white;
+            padding: 10px;
+        }
+
+        .cabecera1 {
+            display: flex;
+            
+        }
+        
+
+        .cuerpo, .popular, .lo_ultimo {
+
+            margin: 20px;
+            max-width: 1200px;
+
+        }
+
+        .cuerpo {
+            img {
+                position: absolute;
+            }
+        }
+
+       .lo_ultimo {
+            .ultimo1 {
+                margin: 10px 0 20px 0;
+            }
+            .ultimo2 {
+                margin: 20px 0 10px 0;
+            }
+       }
+
+        .principalheader {
+            display: grid;
+            justify-content: space-around;
+        }
+
+        .headersearch {
+           align-items: center;
+           margin: 40px 0 0 20px;
         }
 
         .euroheader {
             display: flex;
-            /* justify-content: space-between; */
+            justify-content: space-between;
+            padding: 10px;
             .eurologo {
                 height: 100px;
                 width: 300px;
@@ -28,10 +96,14 @@
         
         .sectionslinks {
             display: grid;
+            margin: 5px 30px 5px 30px;
+            
             
             li {
                 display: inline;
                 color: rgb(28, 116, 231);
+                margin: 5px 15px 5px 15px;
+                font-size: large;
             }
         }
 
@@ -39,9 +111,12 @@
             display: grid;
             background-color: rgb(28, 116, 231);
             color: white;
+            padding: 10px;
             li {
                 justify-content: space-between;
                 display: inline-block;
+                margin: 5px 30px 5px 30px;
+                font-size: large;
             }
         }
 
